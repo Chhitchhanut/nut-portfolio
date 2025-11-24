@@ -1,0 +1,58 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+nav {
+    
+    background: #F8FAFC;
+}
+.navRight ul li a,
+.navLeft {
+    color: white;
+    color: #8B5CF6;
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.navRight ul li a:hover {
+    color: purple;
+    color: #C084FC;
+}
+.slideshow .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    perspective: 100px;
+}
+.slideshow img{
+    height: 100px;
+    border: solid 1px purple;
+    transition: 1s;
+}
+.slideshow img:hover{
+    transform: translateZ(15px);
+}
+.slideshow{
+    animation: scroll 10s linear infinite;
+}
+@keyframes scroll {
+    0% {
+        transform: translateX(-100px);
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+.sec-title{
+    margin-bottom: 15px;
+    text-align: center;
+    font-size: 2.5rem;
+    font-weight: bold;
+
+}
+.sec-sub-title{
+    margin: 20px 0px;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: gray;
+}

@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <nav class="p-3 pl-20 pr-20 flex justify-between">
+        <p class="navLeft">Chhitchhanut</p>
+        <div class="navRight">
+            <ul class="flex justify-between gap-8">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#skill">Skills</a></li>
+                <li><a href="#edu">Education</a></li>
+                <li><a href="#exp">Experience</a></li>
+                <li><a href="#hobbie">Hobbie</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <section id="home" class="bg-gray-300 w-full p-20 flex items-center">
+            <img src="img/cat.png" alt="" class="h-[400px]">
+            <div class="greet pl-20">
+                <p class="text-5xl">Hi! It's</p>
+                <p class="text-5xl mt-4 font-bold text-purple-500">Chhitchhanut.</p>
+                <p class="mt-12 text-justify">A web developer who loves crafting clean and intuitive digital experiences. Quiet by nature but creative at heart, I let my code speak for me. Inspired by minimalism, a touch of purple, and the calm energy of cats, I'm always exploring new ways to build smarter, not louder. Welcome to my space.</p>
+                <button class="mt-4 bg-purple-500 hover:bg-purple-600 focus:ring-2 focus:ring-purple-300 text-white px-4 py-2 rounded transition-colors"><a href="#contact">Contact Me!</a></button>
+            </div>
+        </section>
+
+        <section id="skill" class="p-20">
+            <!-- section title -->
+            <div class="flex items-center my-4">
+                <div class="flex-grow border-t-4 border-gray-300"></div>
+                <span class="sec-title mx-4 text-purple-500">My Skills</span>
+                <div class="flex-grow border-t-4 border-gray-300"></div>
+            </div>
+            <p class="text-center">I bring a mix of technical expertise and soft skills to every project. On the technical side, I'm skilled in web development technologies, problem-solving, and building efficient, user-friendly applications. Equally important, I value communication, adaptability, and attention to detail, which help me collaborate effectively and turn ideas into polished results.</p>
+            <h2 class="sec-sub-title">Hard Skills</h2>
+            <div class="slideshow slides flex gap-4 transition-transform duration-500">
+                <div class="col">
+                    <img src="img/py.png" alt="">
+                    <p>Python</p>
+                </div>
+                <div class="col">
+                    <img src="img/html5.png" alt="">
+                    <p>HTML5</p>
+                </div>
+                <div class="col">
+                    <img src="img/css.png" alt="">
+                    <p>CSS</p>
+                </div>
+                <div class="col">
+                    <img src="img/sass.png" alt="">
+                    <p>Sass</p>
+                </div>
+                <div class="col">
+                    <img src="img/js.png" alt="">
+                    <p>JavaScript</p>
+                </div>
+                <div class="col">
+                    <img src="img/mysql.png" alt="">
+                    <p>MySQL</p>
+                </div>
+                <div class="col">
+                    <img src="img/sqlite.png" alt="">
+                    <p>SQLite</p>
+                </div>
+            </div>
+            <h2 class="sec-sub-title mt-16">Soft Skills</h2>
+            <div class="slideshow flex gap-4">
+                <div class="col">
+                    <img src="img/ps.png" alt="">
+                    <p>Problem Solving</p>
+                </div>
+                <div class="col">
+                    <img src="img/time.png" alt="">
+                    <p>Time Management</p>
+                </div>
+                <div class="col">
+                    <img src="img/task.png" alt="">
+                    <p>Task Management</p>
+                </div>
+                <div class="col">
+                    <img src="img/team.png" alt="">
+                    <p>Teamwork</p>
+                </div>
+                <div class="col">
+                    <img src="img/cmm.png" alt="">
+                    <p>Communication</p>
+                </div>
+                <div class="col">
+                    <img src="img/leader.png" alt="">
+                    <p>Leadership</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
