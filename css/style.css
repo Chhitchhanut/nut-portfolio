@@ -17,6 +17,8 @@ nav {
     color: purple;
     color: #C084FC;
 }
+
+
 .slideshow .col{
     display: flex;
     flex-direction: column;
@@ -32,7 +34,7 @@ nav {
     transform: translateZ(15px);
 }
 .slideshow{
-    animation: scroll 10s linear infinite;
+    animation: scroll 15s linear infinite;
 }
 @keyframes scroll {
     0% {
@@ -42,6 +44,8 @@ nav {
         transform: translateY(0);
     }
 }
+
+
 .sec-title{
     margin-bottom: 15px;
     text-align: center;

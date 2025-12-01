@@ -8,7 +8,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body>
-    <nav class="p-3 pl-20 pr-20 flex justify-between">
+    <nav class="p-3 pl-20 pr-20 flex justify-between fixed top-0 left-0 w-full">
         <p class="navLeft">Chhitchhanut</p>
         <div class="navRight">
             <ul class="flex justify-between gap-8">
@@ -42,66 +42,238 @@
             </div>
             <p class="text-center">I bring a mix of technical expertise and soft skills to every project. On the technical side, I'm skilled in web development technologies, problem-solving, and building efficient, user-friendly applications. Equally important, I value communication, adaptability, and attention to detail, which help me collaborate effectively and turn ideas into polished results.</p>
             <h2 class="sec-sub-title">Hard Skills</h2>
-            <div class="slideshow slides flex gap-4 transition-transform duration-500">
-                <div class="col">
-                    <img src="img/py.png" alt="">
-                    <p>Python</p>
-                </div>
-                <div class="col">
-                    <img src="img/html5.png" alt="">
-                    <p>HTML5</p>
-                </div>
-                <div class="col">
-                    <img src="img/css.png" alt="">
-                    <p>CSS</p>
-                </div>
-                <div class="col">
-                    <img src="img/sass.png" alt="">
-                    <p>Sass</p>
-                </div>
-                <div class="col">
-                    <img src="img/js.png" alt="">
-                    <p>JavaScript</p>
-                </div>
-                <div class="col">
-                    <img src="img/mysql.png" alt="">
-                    <p>MySQL</p>
-                </div>
-                <div class="col">
-                    <img src="img/sqlite.png" alt="">
-                    <p>SQLite</p>
-                </div>
+            <div class="slideshow flex gap-4">
+                <!-- Original -->
+                <div class="col shrink-0"><img src="img/py.png"><p>Python</p></div>
+                <div class="col shrink-0"><img src="img/html5.png"><p>HTML5</p></div>
+                <div class="col shrink-0"><img src="img/css.png"><p>CSS</p></div>
+                <div class="col shrink-0"><img src="img/sass.png"><p>Sass</p></div>
+                <div class="col shrink-0"><img src="img/js.png"><p>JavaScript</p></div>
+                <div class="col shrink-0"><img src="img/mysql.png"><p>MySQL</p></div>
+                <div class="col shrink-0"><img src="img/sqlite.png"><p>SQLite</p></div>
+
+                <!-- Duplicate -->
+                <div class="col shrink-0"><img src="img/py.png"><p>Python</p></div>
+                <div class="col shrink-0"><img src="img/html5.png"><p>HTML5</p></div>
             </div>
             <h2 class="sec-sub-title mt-16">Soft Skills</h2>
             <div class="slideshow flex gap-4">
-                <div class="col">
-                    <img src="img/ps.png" alt="">
-                    <p>Problem Solving</p>
+                <div class="col shrink-0"><img src="img/ps.png"><p>Problem Solving</p></div>
+                <div class="col shrink-0"><img src="img/time.png"><p>Time Management</p></div>
+                <div class="col shrink-0"><img src="img/task.png"><p>Task Management</p></div>
+                <div class="col shrink-0"><img src="img/team.png"><p>Teamwork</p></div>
+                <div class="col shrink-0"><img src="img/cmm.png"><p>Communication</p></div>
+                <div class="col shrink-0"><img src="img/leader.png"><p>Leadership</p></div>
+
+                <!-- Duplicate -->
+                <div class="col shrink-0"><img src="img/ps.png"><p>Problem Solving</p></div>
+                <div class="col shrink-0"><img src="img/time.png"><p>Time Management</p></div>
+                <div class="col shrink-0"><img src="img/task.png"><p>Task Management</p></div>
+            </div>
+        </section>
+
+        <section id="edu" class="p-20 pt-10">
+            <!-- section title -->
+            <div class="flex items-center my-4">
+                <div class="flex-grow border-t-4 border-gray-300"></div>
+                <span class="sec-title mx-4 text-purple-500">My Education Background</span>
+                <div class="flex-grow border-t-4 border-gray-300"></div>
+            </div>
+            <p class="text-center">I have a strong educational background that provided both theoretical knowledge and practical skills, helping me develop problem-solving abilities and a passion for continuous learning.</p>
+            <div class="mt-10 space-y-8 max-w-3xl mx-auto">
+                <!-- Education Item 1 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-purple-600">Associate of Web Development</h3>
+                    <p class="text-gray-700 mt-2">Passereles Numerique Cambodia</p>
+                    <p class="text-gray-500 mt-1">2024 - Now</p>
+                    <p class="mt-2 text-gray-600">Focused on software development, algorithms, and web technologies. Participated in several coding competitions and projects.</p>
                 </div>
-                <div class="col">
-                    <img src="img/time.png" alt="">
-                    <p>Time Management</p>
+
+                <!-- Education Item 2 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-purple-600">High School Diploma</h3>
+                    <p class="text-gray-700 mt-2">Anlong Vil High School</p>
+                    <p class="text-gray-500 mt-1">2021 - 2024</p>
+                    <p class="mt-2 text-gray-600">Graduated with honors, focused on science and mathematics, and actively participated in student leadership programs.</p>
                 </div>
-                <div class="col">
-                    <img src="img/task.png" alt="">
-                    <p>Task Management</p>
+            </div>
+        </section>
+
+        <section id="exp" class="p-20 pt-10">
+            <!-- section title -->
+            <div class="flex items-center my-4">
+                <div class="flex-grow border-t-4 border-gray-300"></div>
+                <span class="sec-title mx-4 text-purple-500">My Experiences</span>
+                <div class="flex-grow border-t-4 border-gray-300"></div>
+            </div>
+            <p class="text-center">I have gained valuable professional experience through various roles, where I developed technical skills, collaborated with teams, and contributed to meaningful projects. Each experience has strengthened my problem-solving abilities, adaptability, and commitment to delivering quality results.</p>
+
+            <div class="mt-10 space-y-8 max-w-3xl mx-auto">
+                <!-- Experience Item 1 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-purple-600">Frontend Developer</h3>
+                    <p class="text-gray-700 mt-2">Tech Solutions Co., Phnom Penh</p>
+                    <p class="text-gray-500 mt-1">Jan 2023 - Present</p>
+                    <p class="mt-2 text-gray-600">
+                        Developing and maintaining web applications using HTML, CSS, JavaScript, and React. Collaborated with designers and backend developers to improve UI/UX and optimize performance.
+                    </p>
                 </div>
-                <div class="col">
-                    <img src="img/team.png" alt="">
-                    <p>Teamwork</p>
+
+                <!-- Experience Item 2 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-purple-600">Intern - Web Development</h3>
+                    <p class="text-gray-700 mt-2">Digital Innovators, Phnom Penh</p>
+                    <p class="text-gray-500 mt-1">Jun 2022 - Dec 2022</p>
+                    <p class="mt-2 text-gray-600">
+                        Assisted in building responsive websites, performed bug fixes, and collaborated on small projects with senior developers. Gained practical experience with modern web technologies.
+                    </p>
                 </div>
-                <div class="col">
-                    <img src="img/cmm.png" alt="">
-                    <p>Communication</p>
+
+                <!-- Experience Item 3 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                    <h3 class="text-xl font-semibold text-purple-600">Freelance Web Developer</h3>
+                    <p class="text-gray-700 mt-2">Self-Employed</p>
+                    <p class="text-gray-500 mt-1">2021 - 2022</p>
+                    <p class="mt-2 text-gray-600">
+                        Designed and developed websites for local businesses, including e-commerce platforms and portfolio sites. Managed project timelines and client communication independently.
+                    </p>
                 </div>
-                <div class="col">
-                    <img src="img/leader.png" alt="">
-                    <p>Leadership</p>
+            </div>
+        </section>
+
+        <section id="hobbie" class="p-20 pt-10">
+            <!-- section title -->
+            <div class="flex items-center my-4">
+                <div class="flex-grow border-t-4 border-gray-300"></div>
+                <span class="sec-title mx-4 text-purple-500">My Hobbie</span>
+                <div class="flex-grow border-t-4 border-gray-300"></div>
+            </div>
+            <p class="text-center">In my free time, I enjoy activities that help me relax, stay creative, and keep learning. I like reading, exploring new places, coding personal projects, and listening to music, which all contribute to my personal growth and inspiration.</p>
+
+            <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <!-- Hobby Item 1 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md text-center">
+                    <img src="img/reading.png" alt="Reading" class="w-16 h-16 mx-auto mb-4">
+                    <h3 class="text-lg font-semibold text-purple-600">Reading</h3>
+                    <p class="text-gray-600 mt-2">Enjoy exploring technology, self-development, and fiction books to expand knowledge and creativity.</p>
+                </div>
+
+                <!-- Hobby Item 2 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md text-center">
+                    <img src="img/travel.png" alt="Traveling" class="w-16 h-16 mx-auto mb-4">
+                    <h3 class="text-lg font-semibold text-purple-600">Traveling</h3>
+                    <p class="text-gray-600 mt-2">Love exploring new places and cultures to gain different perspectives and inspiration.</p>
+                </div>
+
+                <!-- Hobby Item 3 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md text-center">
+                    <img src="img/coding.png" alt="Coding" class="w-16 h-16 mx-auto mb-4">
+                    <h3 class="text-lg font-semibold text-purple-600">Coding</h3>
+                    <p class="text-gray-600 mt-2">Passionate about creating web projects, learning new frameworks, and improving programming skills.</p>
+                </div>
+                
+                <!-- Hobby Item 4 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md text-center">
+                    <img src="img/music.png" alt="Music" class="w-16 h-16 mx-auto mb-4">
+                    <h3 class="text-lg font-semibold text-purple-600">Music</h3>
+                    <p class="text-gray-600 mt-2">Listening to various genres of music to relax and find inspiration during work and study breaks.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="p-20 pt-10">
+            <!-- section title -->
+            <div class="flex items-center my-4">
+                <div class="flex-grow border-t-4 border-gray-300"></div>
+                <span class="sec-title mx-4 text-purple-500">Contact Me</span>
+                <div class="flex-grow border-t-4 border-gray-300"></div>
+            </div>
+            <p class="text-center">I'm always open to connecting and exploring new opportunities. Whether you have questions, project ideas, or collaboration opportunities, feel free to reach out via email, phone, or social media. I'd love to hear from you.</p>
+
+            <div class="mt-10 max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- Contact Form -->
+                <form class="bg-gray-100 p-8 rounded-lg shadow-md space-y-6">
+                    <div>
+                        <label for="name" class="block text-gray-700 font-medium mb-2">Name</label>
+                        <input type="text" id="name" name="name" class="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500">
+                    </div>
+
+                    <div>
+                        <label for="email" class="block text-gray-700 font-medium mb-2">Email</label>
+                        <input type="email" id="email" name="email" class="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500">
+                    </div>
+
+                    <div>
+                        <label for="message" class="block text-gray-700 font-medium mb-2">Message</label>
+                        <textarea id="message" name="message" rows="5" class="w-full p-3 border rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"></textarea>
+                    </div>
+
+                    <button type="submit" class="bg-purple-500 text-white px-6 py-3 rounded-md hover:bg-purple-600 transition duration-300">Send Message</button>
+                </form>
+
+                <!-- Contact Info -->
+                <div class="space-y-6">
+                    <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                        <h3 class="text-lg font-semibold text-purple-600 mb-2">Email</h3>
+                        <p class="text-gray-700">Chhitchhanut.nang@student.passerelesnumerique.org</p>
+                    </div>
+
+                    <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                        <h3 class="text-lg font-semibold text-purple-600 mb-2">Phone</h3>
+                        <p class="text-gray-700">+855 123 456 789</p>
+                    </div>
+
+                    <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                        <h3 class="text-lg font-semibold text-purple-600 mb-2">Social</h3>
+                        <div class="flex space-x-4 mt-2">
+                            <a href="#" class="text-gray-700 hover:text-purple-500 transition duration-300">LinkedIn</a>
+                            <a href="#" class="text-gray-700 hover:text-purple-500 transition duration-300">GitHub</a>
+                            <a href="#" class="text-gray-700 hover:text-purple-500 transition duration-300">Facebook</a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
     </main>
 
+    <footer class="bg-gray-900 text-gray-300 py-10">
+        <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
+            <!-- About / Brand -->
+            <div>
+                <h2 class="text-xl font-bold text-purple-500 mb-4">My Portfolio</h2>
+                <p class="text-gray-400">
+                    Passionate web developer creating modern, responsive websites. Dedicated to learning and building innovative projects.
+                </p>
+            </div>
+
+            <!-- Quick Links -->
+            <div>
+                <h3 class="text-lg font-semibold text-purple-500 mb-4">Quick Links</h3>
+                <ul class="space-y-2">
+                    <li><a href="#home" class="hover:text-white transition">Home</a></li>
+                    <li><a href="#skill" class="hover:text-white transition">Skill</a></li>
+                    <li><a href="#edu" class="hover:text-white transition">Education</a></li>
+                    <li><a href="#exp" class="hover:text-white transition">Experience</a></li>
+                    <li><a href="#hobbie" class="hover:text-white transition">Hobbies</a></li>
+                    <li><a href="#contact" class="hover:text-white transition">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Social Links -->
+            <div>
+                <h3 class="text-lg font-semibold text-purple-500 mb-4">Connect with Me</h3>
+                <ul class="space-y-2">
+                    <li><a href="#" class="hover:text-white transition">LinkedIn</a></li>
+                    <li><a href="#" class="hover:text-white transition">GitHub</a></li>
+                    <li><a href="#" class="hover:text-white transition">Facebook</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="mt-10 text-center text-gray-500 text-sm">
+            &copy; 2025 My Portfolio. All rights reserved.
+        </div>
+    </footer>
     <script src="js/script.js"></script>
 </body>
 </html>
