@@ -15,8 +15,8 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#skill">Skills</a></li>
                 <li><a href="#edu">Education</a></li>
-                <li><a href="#exp">Experience</a></li>
-                <li><a href="#hobbie">Hobbie</a></li>
+                <li><a href="#exp">Experiences</a></li>
+                <li><a href="#hobbie">Hobbies</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -42,33 +42,50 @@
             </div>
             <p class="text-center">I bring a mix of technical expertise and soft skills to every project. On the technical side, I'm skilled in web development technologies, problem-solving, and building efficient, user-friendly applications. Equally important, I value communication, adaptability, and attention to detail, which help me collaborate effectively and turn ideas into polished results.</p>
             <h2 class="sec-sub-title">Hard Skills</h2>
-            <div class="slideshow flex gap-4">
+            
+            <div class="slideshow">
                 <!-- Original -->
-                <div class="col shrink-0"><img src="img/py.png"><p>Python</p></div>
-                <div class="col shrink-0"><img src="img/html5.png"><p>HTML5</p></div>
-                <div class="col shrink-0"><img src="img/css.png"><p>CSS</p></div>
-                <div class="col shrink-0"><img src="img/sass.png"><p>Sass</p></div>
-                <div class="col shrink-0"><img src="img/js.png"><p>JavaScript</p></div>
-                <div class="col shrink-0"><img src="img/mysql.png"><p>MySQL</p></div>
-                <div class="col shrink-0"><img src="img/sqlite.png"><p>SQLite</p></div>
-
+                <div class="card-container">
+                    <div class="col"><img src="img/py.png"><p>Python</p></div>
+                    <div class="col"><img src="img/html5.png"><p>HTML5</p></div>
+                    <div class="col"><img src="img/css.png"><p>CSS</p></div>
+                    <div class="col"><img src="img/sass.png"><p>Sass</p></div>
+                    <div class="col"><img src="img/js.png"><p>JavaScript</p></div>
+                    <div class="col"><img src="img/mysql.png"><p>MySQL</p></div>
+                    <div class="col"><img src="img/sqlite.png"><p>SQLite</p></div>
+                </div>
                 <!-- Duplicate -->
-                <div class="col shrink-0"><img src="img/py.png"><p>Python</p></div>
-                <div class="col shrink-0"><img src="img/html5.png"><p>HTML5</p></div>
+                <div aria-hidden="true" class="card-container">
+                    <div class="col"><img src="img/py.png"><p>Python</p></div>
+                    <div class="col"><img src="img/html5.png"><p>HTML5</p></div>
+                    <div class="col"><img src="img/css.png"><p>CSS</p></div>
+                    <div class="col"><img src="img/sass.png"><p>Sass</p></div>
+                    <div class="col"><img src="img/js.png"><p>JavaScript</p></div>
+                    <div class="col"><img src="img/mysql.png"><p>MySQL</p></div>
+                    <div class="col"><img src="img/sqlite.png"><p>SQLite</p></div>
+                </div>
             </div>
-            <h2 class="sec-sub-title mt-16">Soft Skills</h2>
-            <div class="slideshow flex gap-4">
-                <div class="col shrink-0"><img src="img/ps.png"><p>Problem Solving</p></div>
-                <div class="col shrink-0"><img src="img/time.png"><p>Time Management</p></div>
-                <div class="col shrink-0"><img src="img/task.png"><p>Task Management</p></div>
-                <div class="col shrink-0"><img src="img/team.png"><p>Teamwork</p></div>
-                <div class="col shrink-0"><img src="img/cmm.png"><p>Communication</p></div>
-                <div class="col shrink-0"><img src="img/leader.png"><p>Leadership</p></div>
 
+            <h2 class="sec-sub-title mt-16">Soft Skills</h2>
+            <div class="slideshow" id="slideshow2">
+                <!-- Original -->
+                <div class="card-container">
+                    <div class="col"><img src="img/ps.png"><p>Problem Solving</p></div>
+                    <div class="col"><img src="img/time.png"><p>Time Management</p></div>
+                    <div class="col"><img src="img/task.png"><p>Task Management</p></div>
+                    <div class="col"><img src="img/team.png"><p>Teamwork</p></div>
+                    <div class="col"><img src="img/cmm.png"><p>Communication</p></div>
+                    <div class="col"><img src="img/leader.png"><p>Leadership</p></div>
+                </div>
                 <!-- Duplicate -->
-                <div class="col shrink-0"><img src="img/ps.png"><p>Problem Solving</p></div>
-                <div class="col shrink-0"><img src="img/time.png"><p>Time Management</p></div>
-                <div class="col shrink-0"><img src="img/task.png"><p>Task Management</p></div>
+                <div aria-hidden="true" class="card-container">
+                    <div class="col"><img src="img/ps.png"><p>Problem Solving</p></div>
+                    <div class="col"><img src="img/time.png"><p>Time Management</p></div>
+                    <div class="col"><img src="img/task.png"><p>Task Management</p></div>
+                    <div class="col"><img src="img/team.png"><p>Teamwork</p></div>
+                    <div class="col"><img src="img/cmm.png"><p>Communication</p></div>
+                    <div class="col"><img src="img/leader.png"><p>Leadership</p></div>
+                </div>
             </div>
         </section>
 
@@ -82,7 +99,7 @@
             <p class="text-center">I have a strong educational background that provided both theoretical knowledge and practical skills, helping me develop problem-solving abilities and a passion for continuous learning.</p>
             <div class="mt-10 space-y-8 max-w-3xl mx-auto">
                 <!-- Education Item 1 -->
-                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md object-cover rounded-xl shadow-2xl border-4 border-purple-600/30 hover:border-purple-500 transition duration-500">
                     <h3 class="text-xl font-semibold text-purple-600">Associate of Web Development</h3>
                     <p class="text-gray-700 mt-2">Passereles Numerique Cambodia</p>
                     <p class="text-gray-500 mt-1">2024 - Now</p>
@@ -90,7 +107,7 @@
                 </div>
 
                 <!-- Education Item 2 -->
-                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md object-cover rounded-xl shadow-2xl border-4 border-purple-600/30 hover:border-purple-500 transition duration-500">
                     <h3 class="text-xl font-semibold text-purple-600">High School Diploma</h3>
                     <p class="text-gray-700 mt-2">Anlong Vil High School</p>
                     <p class="text-gray-500 mt-1">2021 - 2024</p>
@@ -108,35 +125,61 @@
             </div>
             <p class="text-center">I have gained valuable professional experience through various roles, where I developed technical skills, collaborated with teams, and contributed to meaningful projects. Each experience has strengthened my problem-solving abilities, adaptability, and commitment to delivering quality results.</p>
 
-            <div class="mt-10 space-y-8 max-w-3xl mx-auto">
+            <div class="mt-10 space-y-8 max-w-4xl mx-auto">
                 <!-- Experience Item 1 -->
-                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold text-purple-600">Frontend Developer</h3>
-                    <p class="text-gray-700 mt-2">Tech Solutions Co., Phnom Penh</p>
-                    <p class="text-gray-500 mt-1">Jan 2023 - Present</p>
-                    <p class="mt-2 text-gray-600">
-                        Developing and maintaining web applications using HTML, CSS, JavaScript, and React. Collaborated with designers and backend developers to improve UI/UX and optimize performance.
-                    </p>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md flex flex-col md:flex-row items-center gap-6 object-cover rounded-xl shadow-2xl border-4 border-purple-600/30 hover:border-purple-500 transition duration-500">
+                    <img src="img/pro-algo.jpg" alt="Profile" class="w-32 h-32 object-cover rounded-full">
+                    <div>
+                        <h3 class="text-xl font-semibold text-purple-600">School Project: Algorithms</h3>
+                        <p class="text-gray-700 mt-2">Passereles Numerique Cambodia</p>
+                        <p class="text-gray-500 mt-1">Duration: 3 weeks</p>
+                        <p class="text-gray-500 mt-1">Link: <a href="https://github.com/Chhitchhanut/internship-management-system-project.git" target="_blank" class="text-purple-600 underline">Source Code</a></p>
+                        <p class="mt-4 text-gray-600">
+                            Built a full-featured Internship Management System using Python, SQLite, JavaScript, HTML, CSS, CSS framework (Tailwindcss), and CRUD operations for managing interns, tasks, and programs independently.
+                        </p>
+                    </div>
                 </div>
-
+                
                 <!-- Experience Item 2 -->
-                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold text-purple-600">Intern - Web Development</h3>
-                    <p class="text-gray-700 mt-2">Digital Innovators, Phnom Penh</p>
-                    <p class="text-gray-500 mt-1">Jun 2022 - Dec 2022</p>
-                    <p class="mt-2 text-gray-600">
-                        Assisted in building responsive websites, performed bug fixes, and collaborated on small projects with senior developers. Gained practical experience with modern web technologies.
-                    </p>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md flex flex-col md:flex-row items-center gap-6 object-cover rounded-xl shadow-2xl border-4 border-purple-600/30 hover:border-purple-500 transition duration-500">
+                    <img src="img/pro-web.png" alt="Profile" class="w-32 h-32 object-cover rounded-full">
+                    <div>
+                        <h3 class="text-xl font-semibold text-purple-600">School Project: Web Design</h3>
+                        <p class="text-gray-700 mt-2">Passereles Numerique Cambodia</p>
+                        <p class="text-gray-500 mt-1">Duration: 3 weeks</p>
+                        <p class="text-gray-500 mt-1">Link: <a href="https://create-website-project-by-chhanut.vercel.app/" target="_blank" class="text-purple-600 underline">Website</a> & <a href="https://github.com/Chhitchhanut/create-website-project.git" target="_blank" class="text-purple-600 underline">Source Code</a></p>
+                        <p class="mt-4 text-gray-600">
+                            I built a responsive product showcase website using HTML, CSS, and CSS framework (SASS), featuring clean design, clear product presentation, and seamless navigation across devices.
+                        </p>
+                    </div>
                 </div>
-
+                
                 <!-- Experience Item 3 -->
-                <div class="bg-gray-100 p-6 rounded-lg shadow-md">
-                    <h3 class="text-xl font-semibold text-purple-600">Freelance Web Developer</h3>
-                    <p class="text-gray-700 mt-2">Self-Employed</p>
-                    <p class="text-gray-500 mt-1">2021 - 2022</p>
-                    <p class="mt-2 text-gray-600">
-                        Designed and developed websites for local businesses, including e-commerce platforms and portfolio sites. Managed project timelines and client communication independently.
-                    </p>
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md flex flex-col md:flex-row items-center gap-6 object-cover rounded-xl shadow-2xl border-4 border-purple-600/30 hover:border-purple-500 transition duration-500">
+                    <img src="img/pro-git.png" alt="Profile" class="w-32 h-32 object-cover rounded-full">
+                    <div>
+                        <h3 class="text-xl font-semibold text-purple-600">School Project: GitHub</h3>
+                        <p class="text-gray-700 mt-2">Passereles Numerique Cambodia</p>
+                        <p class="text-gray-500 mt-1">Duration: 10 days</p>
+                        <p class="text-gray-500 mt-1">Link: <a href="https://git-html-project.vercel.app/" target="_blank" class="text-purple-600 underline">Website</a> & <a href="https://github.com/HutSreypov/Git_HTML_Project.git" target="_blank" class="text-purple-600 underline">Source Code</a></p>
+                        <p class="mt-4 text-gray-600">
+                            In this project I collaborated with a 3-member team to build a responsive bakery web shop using HTML and CSS featuring product listings, images, prices, and intuitive navigation.
+                        </p>
+                    </div>
+                </div>
+                
+                <!-- Experience Item 4  -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md flex flex-col md:flex-row items-center gap-6 object-cover rounded-xl shadow-2xl border-4 border-purple-600/30 hover:border-purple-500 transition duration-500">
+                    <img src="img/pro-gra.png" alt="Profile" class="w-32 h-32 object-cover rounded-full">
+                    <div>
+                        <h3 class="text-xl font-semibold text-purple-600">School Project: Graphic Design</h3>
+                        <p class="text-gray-700 mt-2">Passereles Numerique Cambodia</p>
+                        <p class="text-gray-500 mt-1">Duration: 2 weeks</p>
+                        <p class="text-gray-500 mt-1">Link: <a href="https://www.figma.com/design/q015aK8WHMHrq0fw5oz1SJ/C2-Design-Project?node-id=77-2&t=blK8SvhuGBDuWmIz-1" target="_blank" class="text-purple-600 underline">Figma</a></p>
+                        <p class="mt-4 text-gray-600">
+                            Collaborated with a 3-member team to design an E-learning app UI using Figma, creating intuitive, user-friendly interfaces and interactive prototypes for seamless user experience.
+                        </p>
+                    </div>
                 </div>
             </div>
         </section>
@@ -145,38 +188,51 @@
             <!-- section title -->
             <div class="flex items-center my-4">
                 <div class="flex-grow border-t-4 border-gray-300"></div>
-                <span class="sec-title mx-4 text-purple-500">My Hobbie</span>
+                <span class="sec-title mx-4 text-purple-500">My Hobbies</span>
                 <div class="flex-grow border-t-4 border-gray-300"></div>
             </div>
             <p class="text-center">In my free time, I enjoy activities that help me relax, stay creative, and keep learning. I like reading, exploring new places, coding personal projects, and listening to music, which all contribute to my personal growth and inspiration.</p>
 
             <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 max-w-5xl mx-auto">
                 <!-- Hobby Item 1 -->
-                <div class="bg-gray-100 p-6 rounded-lg shadow-md text-center">
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md text-center object-cover rounded-xl shadow-2xl border-4 border-purple-600/30 hover:border-purple-500 transition duration-500">
+                    <img src="img/coding.png" alt="Coding" class="w-16 h-16 mx-auto mb-4">
+                    <h3 class="text-lg font-semibold text-purple-600">Coding</h3>
+                    <p class="text-gray-600 mt-2">Passionate about creating web projects, learning new frameworks, and improving programming skills.</p>
+                </div>
+
+                <!-- Hobby Item 2 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md text-center object-cover rounded-xl shadow-2xl border-4 border-purple-600/30 hover:border-purple-500 transition duration-500">
                     <img src="img/reading.png" alt="Reading" class="w-16 h-16 mx-auto mb-4">
                     <h3 class="text-lg font-semibold text-purple-600">Reading</h3>
                     <p class="text-gray-600 mt-2">Enjoy exploring technology, self-development, and fiction books to expand knowledge and creativity.</p>
                 </div>
 
-                <!-- Hobby Item 2 -->
-                <div class="bg-gray-100 p-6 rounded-lg shadow-md text-center">
+                <!-- Hobby Item 3 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md text-center object-cover rounded-xl shadow-2xl border-4 border-purple-600/30 hover:border-purple-500 transition duration-500">
+                    <img src="img/music1.png" alt="Music" class="w-16 h-16 mx-auto mb-4">
+                    <h3 class="text-lg font-semibold text-purple-600">Music</h3>
+                    <p class="text-gray-600 mt-2">Listening to various genres of music to relax and find inspiration during work and study breaks.</p>
+                </div>
+
+                <!-- Hobby Item 4 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md text-center object-cover rounded-xl shadow-2xl border-4 border-purple-600/30 hover:border-purple-500 transition duration-500">
                     <img src="img/travel.png" alt="Traveling" class="w-16 h-16 mx-auto mb-4">
                     <h3 class="text-lg font-semibold text-purple-600">Traveling</h3>
                     <p class="text-gray-600 mt-2">Love exploring new places and cultures to gain different perspectives and inspiration.</p>
                 </div>
 
-                <!-- Hobby Item 3 -->
-                <div class="bg-gray-100 p-6 rounded-lg shadow-md text-center">
-                    <img src="img/coding.png" alt="Coding" class="w-16 h-16 mx-auto mb-4">
-                    <h3 class="text-lg font-semibold text-purple-600">Coding</h3>
-                    <p class="text-gray-600 mt-2">Passionate about creating web projects, learning new frameworks, and improving programming skills.</p>
+                <!-- Hobby Item 5 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md text-center object-cover rounded-xl shadow-2xl border-4 border-purple-600/30 hover:border-purple-500 transition duration-500">
+                    <img src="img/drawing.png" alt="Music" class="w-16 h-16 mx-auto mb-4">
+                    <h3 class="text-lg font-semibold text-purple-600">Drawing</h3>
+                    <p class="text-gray-600 mt-2">It lets me pull the ideas in my head into the real world. When I sketch, the things I imagine stop being just thoughts.</p>
                 </div>
-                
-                <!-- Hobby Item 4 -->
-                <div class="bg-gray-100 p-6 rounded-lg shadow-md text-center">
-                    <img src="img/music.png" alt="Music" class="w-16 h-16 mx-auto mb-4">
-                    <h3 class="text-lg font-semibold text-purple-600">Music</h3>
-                    <p class="text-gray-600 mt-2">Listening to various genres of music to relax and find inspiration during work and study breaks.</p>
+                <!-- Hobby Item 6 -->
+                <div class="bg-gray-100 p-6 rounded-lg shadow-md text-center object-cover rounded-xl shadow-2xl border-4 border-purple-600/30 hover:border-purple-500 transition duration-500">
+                    <img src="img/game.png" alt="Music" class="w-16 h-16 mx-auto mb-4">
+                    <h3 class="text-lg font-semibold text-purple-600">Game</h3>
+                    <p class="text-gray-600 mt-2">Gaming is my hobby because it lets me jump into new worlds and experience adventures I can't find in real life.</p>
                 </div>
             </div>
         </section>
@@ -190,7 +246,7 @@
             </div>
             <p class="text-center">I'm always open to connecting and exploring new opportunities. Whether you have questions, project ideas, or collaboration opportunities, feel free to reach out via email, phone, or social media. I'd love to hear from you.</p>
 
-            <div class="mt-10 max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div class="mt-10 max-w-5xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-12">
                 <!-- Contact Form -->
                 <form class="bg-gray-100 p-8 rounded-lg shadow-md space-y-6">
                     <div>
@@ -215,20 +271,21 @@
                 <div class="space-y-6">
                     <div class="bg-gray-100 p-6 rounded-lg shadow-md">
                         <h3 class="text-lg font-semibold text-purple-600 mb-2">Email</h3>
-                        <p class="text-gray-700">Chhitchhanut.nang@student.passerelesnumerique.org</p>
+                        <p class="text-gray-700">chhitchhanut.nang@student.passerelesnumerique.org</p>
                     </div>
 
                     <div class="bg-gray-100 p-6 rounded-lg shadow-md">
                         <h3 class="text-lg font-semibold text-purple-600 mb-2">Phone</h3>
-                        <p class="text-gray-700">+855 123 456 789</p>
+                        <p class="text-gray-700">+855 682 546 96</p>
                     </div>
 
                     <div class="bg-gray-100 p-6 rounded-lg shadow-md">
                         <h3 class="text-lg font-semibold text-purple-600 mb-2">Social</h3>
                         <div class="flex space-x-4 mt-2">
-                            <a href="#" class="text-gray-700 hover:text-purple-500 transition duration-300">LinkedIn</a>
-                            <a href="#" class="text-gray-700 hover:text-purple-500 transition duration-300">GitHub</a>
-                            <a href="#" class="text-gray-700 hover:text-purple-500 transition duration-300">Facebook</a>
+                            <a href="#"class="text-gray-700 hover:text-purple-500 transition duration-300">LinkedIn</a>
+                            <a href="https://github.com/Chhitchhanut" target="_blank" class="text-gray-700 hover:text-purple-500 transition duration-300">GitHub</a>
+                            <a href="https://t.me/Worthy_Nut" target="_blank" class="text-gray-700 hover:text-purple-500 transition duration-300">Telegram</a>
+                            <a href="#" target="_blank" class="text-gray-700 hover:text-purple-500 transition duration-300">Facebook</a>
                         </div>
                     </div>
                 </div>
@@ -237,23 +294,28 @@
     </main>
 
     <footer class="bg-gray-900 text-gray-300 py-10">
-        <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-8">
-            <!-- About / Brand -->
+        <div class="max-w-6xl mx-auto px-4 grid grid-cols-1 md:grid-cols-4 gap-8">
+            <!-- image -->
             <div>
-                <h2 class="text-xl font-bold text-purple-500 mb-4">My Portfolio</h2>
-                <p class="text-gray-400">
+                <img src="img/me3.jpg" alt="" class="h-30 md:h-60 object-cover rounded-xl shadow-2xl border-4 border-purple-600/30 hover:border-purple-500 transition duration-500">
+            </div>
+
+            <!-- intro -->
+            <div>
+                <h2 class="text-xl font-bold text-purple-500 mb-4 text-center">My Portfolio</h2>
+                <p class="text-gray-400 text-center">
                     Passionate web developer creating modern, responsive websites. Dedicated to learning and building innovative projects.
                 </p>
             </div>
 
             <!-- Quick Links -->
             <div>
-                <h3 class="text-lg font-semibold text-purple-500 mb-4">Quick Links</h3>
-                <ul class="space-y-2">
+                <h3 class="text-lg font-semibold text-purple-500 mb-4 text-center">Quick Links</h3>
+                <ul class="space-y-2 text-center">
                     <li><a href="#home" class="hover:text-white transition">Home</a></li>
-                    <li><a href="#skill" class="hover:text-white transition">Skill</a></li>
+                    <li><a href="#skill" class="hover:text-white transition">Skills</a></li>
                     <li><a href="#edu" class="hover:text-white transition">Education</a></li>
-                    <li><a href="#exp" class="hover:text-white transition">Experience</a></li>
+                    <li><a href="#exp" class="hover:text-white transition">Experiences</a></li>
                     <li><a href="#hobbie" class="hover:text-white transition">Hobbies</a></li>
                     <li><a href="#contact" class="hover:text-white transition">Contact</a></li>
                 </ul>
@@ -261,10 +323,11 @@
 
             <!-- Social Links -->
             <div>
-                <h3 class="text-lg font-semibold text-purple-500 mb-4">Connect with Me</h3>
-                <ul class="space-y-2">
+                <h3 class="text-lg font-semibold text-purple-500 mb-4 text-center">Connect with Me</h3>
+                <ul class="space-y-2 text-center">
                     <li><a href="#" class="hover:text-white transition">LinkedIn</a></li>
-                    <li><a href="#" class="hover:text-white transition">GitHub</a></li>
+                    <li><a href="https://github.com/Chhitchhanut" target="_blank" class="hover:text-white transition">GitHub</a></li>
+                    <li><a href="https://t.me/Worthy_Nut" target="_blank" class="hover:text-white transition">Telegram</a></li>
                     <li><a href="#" class="hover:text-white transition">Facebook</a></li>
                 </ul>
             </div>
