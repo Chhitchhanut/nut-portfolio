@@ -1,10 +1,12 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
+
 nav {
-    
+
     background: #F8FAFC;
 }
+
 .navRight ul li a,
 .navLeft {
     color: white;
@@ -13,6 +15,7 @@ nav {
     font-weight: bold;
     text-transform: uppercase;
 }
+
 .navRight ul li a:hover {
     color: purple;
     color: #C084FC;
@@ -38,9 +41,10 @@ nav {
     padding-right: 15px;
 }
 
-#slideshow2 .card-container{
+#slideshow2 .card-container {
     animation: spin2 7s infinite linear;
 }
+
 .col {
     display: flex;
     gap: 10px;
@@ -65,26 +69,61 @@ nav {
 }
 
 @keyframes spin {
-    from { transform: translateX(0); }
-    to { transform: translateX(-68%); }
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-68%);
+    }
 }
+
 @keyframes spin2 {
-    from { transform: translateX(-50%); }
-    to { transform: translateX(0%); }
+    from {
+        transform: translateX(-50%);
+    }
+
+    to {
+        transform: translateX(0%);
+    }
 }
 
 
-.sec-title{
+.sec-title {
     margin-bottom: 15px;
     text-align: center;
     font-size: 2.5rem;
     font-weight: bold;
 
 }
-.sec-sub-title{
+
+.sec-sub-title {
     margin: 20px 0px;
     text-align: center;
     font-size: 1.8rem;
     font-weight: bold;
     color: gray;
+}
+
+
+
+/* tablets / small desktops */
+@media screen and (max-width: 992px) {
+    .navRight ul {
+        gap: 6px;
+    }
+
+    .greet {
+        padding-left: 15px;
+    }
+
+    #home img {
+        height: 300px;
+    }
+
+    .contact-container {
+        display: flex;
+        flex-direction: column;
+        padding: 0.8rem;
+    }
 }
